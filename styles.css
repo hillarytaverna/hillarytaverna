@@ -70,7 +70,7 @@ section {
 .podcast-container iframe {
     width: 100%; /* Make sure the iframe takes the full width */
     height: 100%; /* Ensure the iframe height is correct */
-    border: 5px solid #000; /* Add a black border with 5px width */
+    border: 2px solid #ccc; /* Add a light border with 2px width */
     border-radius: 10px; /* Add rounded corners */
 }
 
