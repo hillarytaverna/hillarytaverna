@@ -36,7 +36,7 @@ section {
 #about-me img {
     width: 800px; /* Increase the width */
     height: 400px; /* Adjust the height as needed */
-    border-radius: 0 !important; /* Make the image rectangular and force the rule */
+    border-radius: 15px; /* Add rounded corners to the profile photo */
     object-fit: cover; /* Ensures the image covers the specified dimensions */
 }
 
@@ -75,7 +75,7 @@ section {
 .podcast-container iframe {
     width: 100%; /* Make sure the iframe takes the full width */
     height: 100%; /* Ensure the iframe height is correct */
-    border: 2px solid #ccc; /* Add a black border with 5px width */
+    border: 5px solid #000; /* Add a black border with 5px width */
     border-radius: 10px; /* Add rounded corners */
 }
 
