@@ -1,82 +1,103 @@
-/* Existing styles */
-body {
-    font-family: 'Roboto', Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-}
-header {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-section {
-    padding: 20px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hillary Taverna's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Hillary Taverna</h1>
+        <nav>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#listen-and-watch">Listen & Watch</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about-me">
+        <h2>About Me</h2>
+        <img src="profile.png" alt="Profile Picture">
+        <p>I’m Hillary, a Boston-based Senior Product Manager. I currently work at Kickstarter, a crowdfunding platform for creative projects. In the past, I've also worked as a PM in other fields, namely edtech and staffing software. Before that, I was briefly a high school English teacher. </p>
+    </section>
 
-/* About Me Section Image Styles */
-#about-me img {
-    width: 300px; /* Increase the width */
-    height: 200px; /* Adjust the height as needed */
-    border-radius: 0 !important; /* Make the image rectangular and force the rule */
-    object-fit: cover; /* Ensures the image covers the specified dimensions */
-}
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Product Management</li>
+            <li>User Research</li>
+            <li>Data Visualization & Analysis</li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Showcase your projects here.</p>
+    </section>
+    
+    <section id="experience">
+        <h2>Experience</h2>
+        <p>Detail your professional experience here.</p>
+    </section>
+    
+    <section id="listen-and-watch">
+        <h2>Listen & Watch</h2>
+        <div class="video-grid">
+            <!-- Embed Podcast Episode -->
+            <div class="video-container podcast-container">
+                <iframe src="https://creators.spotify.com/pod/show/women-in-product-podcast/embed/episodes/Episode-53-The-Power-of-Your-Network-When-Searching-for-a-Job-e2b0jc5/a-aah5aps" height="102px" width="100%" frameborder="0" scrolling="no"></iframe>
+            </div>
+            <!-- Example YouTube Video 1 -->
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/SxyNqoFfjag?si=vAbUoHyLgh9OEOAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <!-- Example YouTube Video 2 -->
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/s8gzlVrUBtY?si=NzsKn5_nH0MkooRe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <!-- Example YouTube Video 3 -->
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Spq3-gYwIu4?si=VrPChkp4niKITB0K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <!-- Example YouTube Video 4 -->
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/RHM4VGvOgWc?si=Nx3pvM1P9N0MFgF6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <!-- Example YouTube Video 5 -->
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/NBDqDYHiRTY?si=oBj8f35C0Odf2rr7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <!-- Example YouTube Video 6 -->
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Fnt8VXbSJeI?si=XN_7RFNyLEvOQzqH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <!-- Example YouTube Video 7 -->
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ztv82-_vguk?si=KS6bMPq2yhwA9PrB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <!-- Example YouTube Video 8 -->
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/9Ur4UTWR-hA?si=e4OG2fP-CO8tCDYX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
 
-/* Video Grid Styles */
-.video-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 videos per row */
-    gap: 20px;
-    padding: 20px;
-}
-.video-container {
-    width: 100%;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
-    position: relative;
-}
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
-}
-
-/* Podcast Container Styles */
-.podcast-container {
-    margin-top: 20px;
-    text-align: center;
-}
-
-/* Responsive Styles */
-@media (max-width: 1200px) {
-    .video-grid {
-        grid-template-columns: repeat(3, 1fr); /* 3 videos per row */
-    }
-}
-
-@media (max-width: 900px) {
-    .video-grid {
-        grid-template-columns: repeat(2, 1fr); /* 2 videos per row */
-    }
-}
-
-@media (max-width: 600px) {
-    .video-grid {
-        grid-template-columns: 1fr; /* 1 video per row */
-    }
-}
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>Provide your contact details or a contact form.</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/hillarytaverna" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/hillarytaverna" target="_blank">GitHub</a></li>
+        </ul>
+    </section>
+</body>
+</html>
