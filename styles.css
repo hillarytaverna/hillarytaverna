@@ -59,6 +59,8 @@ section {
 .podcast-container {
     grid-column: span 4; /* Span across all 4 columns */
     height: auto; /* Ensure height auto-adjusts */
+    margin-bottom: 0; /* Remove bottom margin */
+    padding-bottom: 0; /* Remove bottom padding */
 }
 
 /* Responsive Styles */
