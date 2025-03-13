@@ -29,8 +29,8 @@ section {
 
 /* About Me Section Image Styles */
 #about-me img {
-    width: 400px; /* Increase the width */
-    height: 200px; /* Adjust the height as needed */
+    width: 800px; /* Increase the width */
+    height: 400px; /* Adjust the height as needed */
     border-radius: 0 !important; /* Make the image rectangular and force the rule */
     object-fit: cover; /* Ensures the image covers the specified dimensions */
 }
