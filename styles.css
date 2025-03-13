@@ -5,6 +5,7 @@ body {
     padding: 0;
     line-height: 1.6;
     background-color: #0f4c5c; /* Add a custom background color to the entire page */
+    color: #ffffff; /* Set the text color to white */
 }
 header {
     background: #333;
