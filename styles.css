@@ -59,7 +59,7 @@ section {
 /* Podcast Container Styles */
 .podcast-container {
     grid-column: span 4; /* Span across all 4 columns */
-    height: 102px; /* Ensure the height matches the iframe */
+    height: 110px; /* Ensure the height matches the iframe */
     display: flex; /* Use flexbox to center the iframe */
     align-items: center; /* Center vertically */
     justify-content: center; /* Center horizontally */
