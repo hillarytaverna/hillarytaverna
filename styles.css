@@ -55,3 +55,22 @@ section {
     height: 100%;
     border: 0;
 }
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .video-grid {
+        grid-template-columns: repeat(3, 1fr); /* 3 videos per row */
+    }
+}
+
+@media (max-width: 900px) {
+    .video-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 videos per row */
+    }
+}
+
+@media (max-width: 600px) {
+    .video-grid {
+        grid-template-columns: 1fr; /* 1 video per row */
+    }
+}
