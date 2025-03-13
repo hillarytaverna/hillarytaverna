@@ -55,12 +55,20 @@ section {
     height: 100%;
     border: 0;
 }
+
 /* Podcast Container Styles */
 .podcast-container {
     grid-column: span 4; /* Span across all 4 columns */
-    height: auto; /* Ensure height auto-adjusts */
+    height: 102px; /* Ensure the height matches the iframe */
+    display: flex; /* Use flexbox to center the iframe */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
     margin-bottom: 0; /* Remove bottom margin */
     padding-bottom: 0; /* Remove bottom padding */
+}
+.podcast-container iframe {
+    width: 100%; /* Make sure the iframe takes the full width */
+    height: 100%; /* Ensure the iframe height is correct */
 }
 
 /* Responsive Styles */
