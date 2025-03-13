@@ -30,7 +30,7 @@ section {
 /* About Me Section Image Styles */
 #about-me img {
     width: 400px; /* Change to desired width */
-    height: 300px; /* Change to desired height */
+    height: 200px; /* Change to desired height */
     border-radius: 0 !important; /* Make the image rectangular and force the rule */
     object-fit: cover; /* Ensures the image covers the specified dimensions */
 }
