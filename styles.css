@@ -27,16 +27,13 @@ nav ul li a {
 }
 section {
     padding: 20px;
-    margin: 10px 0; /* Add some space between sections */
+    margin: 10px auto; /* Center the section */
+    max-width: 800px; /* Set a max width for the section */
     border-radius: 10px; /* Add rounded corners to sections */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to sections */
 }
 
-/* About Me Section Styles */
-#about-me {
-    max-width: 800px; /* Set a max width for the section */
-    margin: 0 auto; /* Center the section */
-}
+/* About Me Section Image Styles */
 #about-me img {
     width: 800px; /* Increase the width */
     height: 400px; /* Adjust the height as needed */
@@ -104,7 +101,7 @@ section {
 .podcast-container iframe {
     width: 100%; /* Make sure the iframe takes the full width */
     height: 100%; /* Ensure the iframe height is correct */
-    border: 5px solid #000; /* Add a black border with 5px width */
+    border: 2px solid #ccc; /* Add a black border with 5px width */
     border-radius: 10px; /* Add rounded corners */
 }
 
