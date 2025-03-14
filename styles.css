@@ -45,6 +45,15 @@ section {
     margin: 20px auto; /* Center the text within the section */
 }
 
+/* Contact Section Styles */
+#contact ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+#contact ul li {
+    margin: 10px 0; /* Add some margin for spacing between buttons */
+}
+
 /* Button Styles */
 .button {
     display: inline-block;
