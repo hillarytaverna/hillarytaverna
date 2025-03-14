@@ -70,6 +70,7 @@ section {
   width: 10px; /* Set the width for all logos */
   height: 10px; /* Set the height for all logos */
   object-fit: contain; /* Ensure logos maintain their aspect ratio */
+      flex-shrink: 0; /* Prevent logos from shrinking */
 }
 
 /* Contact Section Styles */
