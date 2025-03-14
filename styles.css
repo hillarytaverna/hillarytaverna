@@ -62,11 +62,13 @@ section {
   align-items: center;
   gap: 20px; /* Space between logos */
   margin-top: 20px;
+  flex-wrap: wrap; /* Wrap logos to next line if too wide */
+
 }
 
 .logo {
-  width: 100px; /* Set the width for all logos */
-  height: 100px; /* Set the height for all logos */
+  width: 60px; /* Set the width for all logos */
+  height: 60px; /* Set the height for all logos */
   object-fit: contain; /* Ensure logos maintain their aspect ratio */
 }
 
