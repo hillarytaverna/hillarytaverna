@@ -44,6 +44,31 @@ section {
     max-width: 600px; /* Set a max width for the text */
     margin: 20px auto; /* Center the text within the section */
 }
+/* Style for About Me section */
+.about-me {
+  text-align: center;
+  margin: 20px;
+}
+
+.photo {
+  width: 200px; /* Adjust size as needed */
+  height: auto;
+  border-radius: 50%; /* Makes the photo circular */
+}
+
+.logos-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Space between logos */
+  margin-top: 20px;
+}
+
+.logo {
+  width: 100px; /* Set the width for all logos */
+  height: 100px; /* Set the height for all logos */
+  object-fit: contain; /* Ensure logos maintain their aspect ratio */
+}
 
 /* Contact Section Styles */
 #contact ul {
