@@ -49,6 +49,8 @@ section {
   grid-template-columns: repeat(2, 1fr); /* Create a grid with 2 columns */
   gap: 10px; /* Space between logos */
   margin-top: 20px;
+  justify-content: center; /* Center the grid horizontally */
+
 }
 
 #about-me .logo {
