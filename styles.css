@@ -69,7 +69,7 @@ section {
 /* Video Grid Styles */
 .video-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 videos per row */
+    grid-template-columns: repeat(2, 1fr); /* 2 videos per row */
     gap: 20px;
     padding: 20px;
 }
@@ -90,7 +90,7 @@ section {
 
 /* Podcast Container Styles */
 .podcast-container {
-    grid-column: span 4; /* Span across all 4 columns */
+    grid-column: span 2; /* Span across all 2 columns */
     height: 125px; /* Ensure the height matches the iframe */
     display: flex; /* Use flexbox to center the iframe */
     align-items: center; /* Center vertically */
@@ -127,10 +127,10 @@ section {
 /* Responsive Styles */
 @media (max-width: 1200px) {
     .video-grid {
-        grid-template-columns: repeat(3, 1fr); /* 3 videos per row */
+        grid-template-columns: repeat(2, 1fr); /* 2 videos per row */
     }
     .podcast-container {
-        grid-column: span 3; /* Span across all 3 columns */
+        grid-column: span 2; /* Span across all 2 columns */
     }
 }
 
