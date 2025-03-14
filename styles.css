@@ -60,7 +60,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px; /* Space between logos */
+  gap: 5px; /* Space between logos */
   margin-top: 20px;
   flex-wrap: wrap; /* Wrap logos to next line if too wide */
 
