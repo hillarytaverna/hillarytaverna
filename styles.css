@@ -32,12 +32,41 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to sections */
 }
 
-/* About Me Section Image Styles */
+/* About Me Section Styles */
+#about-me {
+    max-width: 800px; /* Set a max width for the section */
+    margin: 0 auto; /* Center the section */
+}
 #about-me img {
     width: 800px; /* Increase the width */
     height: 400px; /* Adjust the height as needed */
     border-radius: 15px; /* Add rounded corners to the profile photo */
     object-fit: cover; /* Ensures the image covers the specified dimensions */
+}
+#about-me p {
+    max-width: 600px; /* Set a max width for the text */
+    margin: 20px auto; /* Center the text within the section */
+}
+
+/* Button Styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #0f4c5c;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #093a45; /* Darker shade for hover effect */
 }
 
 /* Video Grid Styles */
@@ -75,7 +104,7 @@ section {
 .podcast-container iframe {
     width: 100%; /* Make sure the iframe takes the full width */
     height: 100%; /* Ensure the iframe height is correct */
-    border: 2px solid #ccc; /* Add a black border with 5px width */
+    border: 5px solid #000; /* Add a black border with 5px width */
     border-radius: 10px; /* Add rounded corners */
 }
 
