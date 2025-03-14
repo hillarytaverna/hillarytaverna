@@ -44,31 +44,19 @@ section {
     max-width: 600px; /* Set a max width for the text */
     margin: 20px auto; /* Center the text within the section */
 }
-/* Style for About Me section */
-.about-me {
-  text-align: center;
-  margin: 20px;
-}
-
-.photo {
-  width: 200px; /* Adjust size as needed */
-  height: auto;
-  border-radius: 50%; /* Makes the photo circular */
-}
-
-.logos-container {
+#about-me .logos-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5px; /* Space between logos */
+  gap: 10px; /* Space between logos */
   margin-top: 20px;
 }
 
-.logo {
-  width: 60px; /* Set the width for all logos */
-  height: 60px; /* Set the height for all logos */
-  object-fit: contain; /* Ensure logos maintain their aspect ratio */
-      flex-shrink: 0; /* Prevent logos from shrinking */
+#about-me .logo {
+  width: 40px !important; /* Set the width for all logos */
+  height: 40px !important; /* Set the height for all logos */
+  object-fit: contain !important; /* Ensure logos maintain their aspect ratio */
+  flex-shrink: 0 !important; /* Prevent logos from shrinking */
 }
 
 /* Contact Section Styles */
