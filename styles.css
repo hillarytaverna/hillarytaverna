@@ -53,8 +53,8 @@ section {
 }
 
 #about-me .logo {
-  width: 300px !important; /* Set the width for all logos */
-  height: 300px !important; /* Set the height for all logos */
+  width: 200px !important; /* Set the width for all logos */
+  height: 200px !important; /* Set the height for all logos */
   object-fit: contain !important; /* Ensure logos maintain their aspect ratio */
   flex-shrink: 0 !important; /* Prevent logos from shrinking */
 }
