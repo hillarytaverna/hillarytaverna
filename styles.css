@@ -67,8 +67,8 @@ section {
 }
 
 .logo {
-  width: 60px; /* Set the width for all logos */
-  height: 60px; /* Set the height for all logos */
+  width: 10px; /* Set the width for all logos */
+  height: 10px; /* Set the height for all logos */
   object-fit: contain; /* Ensure logos maintain their aspect ratio */
 }
 
