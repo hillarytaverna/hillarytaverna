@@ -50,6 +50,8 @@ section {
   gap: 10px; /* Space between logos */
   margin-top: 20px;
   justify-content: center; /* Center the grid horizontally */
+  margin-left: auto; /* Center the container */
+  margin-right: auto; /* Center the container */
 }
 
 #about-me .logo {
